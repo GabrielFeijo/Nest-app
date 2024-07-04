@@ -28,6 +28,9 @@ $ git clone https://github.com/GabrielFeijo/Nest-app
 
 $ cd Nest-app
 
+# Instale as dependências
+$ npm install
+
 # Inicie o Docker se ainda não estiver em execução.
 # Use o seguinte comando para iniciar um banco de dados PostgreSQL em um contêiner Docker:
 $ docker-compose up -d
