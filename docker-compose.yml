@@ -8,9 +8,9 @@ services:
       - '3000:3000'
     environment:
       - DB_TYPE=postgres
-      - DB_USERNAME=postgres
-      - DB_PASSWORD=postgres
-      - DB_DATABASE=postgres
+      - DB_USERNAME=nestjs
+      - DB_PASSWORD=gg@24
+      - DB_DATABASE=nestdb
       - DB_PORT=5432
       - DB_HOST=localhost
     depends_on:
@@ -19,9 +19,9 @@ services:
     container_name: db
     image: postgres:12
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_USER: nestjs
+      POSTGRES_PASSWORD: gg@24
+      POSTGRES_DB: nestdb
     ports:
       - '5432:5432'
     volumes:
